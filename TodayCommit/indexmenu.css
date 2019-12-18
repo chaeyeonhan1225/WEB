@@ -1,0 +1,88 @@
+body{
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+#container{
+    width: 1000px;
+    margin:20px auto;
+}
+#bar{
+    width:200px;
+    height: 2000px;
+    margin: 0px;
+    background-color:black;
+    color:white;
+    float:left;
+    text-align:center;
+}
+.mainbar{
+    padding-left:20px;
+    display:inline;
+}
+
+.mainbar h1{
+    font-size: 3em;
+}
+.inputform{
+    width:700px;
+    height:60px;
+}
+input{
+    border:none;
+    border-bottom:2px solid gray;
+    width: 400px;
+    height: 50px;
+    padding: 10px 10px 0px 10px;
+    float:left;
+    font-size: 14px;
+}
+input:focus{
+    outline:none;
+}
+.addBtn{
+    margin-top:15px;
+    margin-left:10px;
+    padding:10px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    border-radius: 5px;
+    cursor:pointer;
+    border: none;
+}
+.addBtn:hover{
+    background-color:gray;
+}
+#commitlist{
+    margin-top: 50px;
+}
+
+.commitcon{
+    width: 600px;
+    cursor:pointer;
+    position:relative;
+    padding: 12px 8px 12px 8px;
+    margin: 10px 2px 10px 2px;
+    background-color:#B1B1B1;
+    font-size: 1em;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+
+.commitcon:nth-child(odd){
+    background-color: #e7e7e7;
+}
+.commitcon:hover{
+    background-color: #ddd;
+}
+.showtime{
+    float:right;
+    margin-right:10px;
+}
+.delete{
+    float:right;
+    margin-right:10px;
+}
+.delete:hover{
+    color: red;
+}
