@@ -29,4 +29,15 @@ function showsalary(){
     else{
         alert("값을 입력해주세요.");
     }
+    let listNode = document.querySelectorAll(".smallpay");
+    if(listNode.length>3)
+        deleteNode();
+}
+function deleteNode(){
+    let show = document.querySelectorAll(".smallpay");
+    let pshow = show[0].parentNode;
+    if(pshow.hasChildNodes()){
+        for(let i=0;i<3;++i)
+            pshow.removeChild(show[i]);
+    }
 }
