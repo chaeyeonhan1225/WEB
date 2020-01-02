@@ -20,6 +20,8 @@ function addlist(){
     document.querySelector("#commitcontent").value = "";
    removecommit();
 }
+
+addBtn.onclick = addlist;
 function addWriteTime(prNode){
     let uploadtime = document.createElement("span");
     let now = document.createTextNode(new Date().toLocaleString().slice(17));

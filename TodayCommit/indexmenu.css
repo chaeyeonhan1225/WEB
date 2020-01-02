@@ -2,13 +2,14 @@ body{
     font-family: 'Nanum Gothic Coding', monospace;
 }
 #container{
+    align-self: center;
     width: 800px;
     margin: 20px auto;
 }
 
 .mainbar{
     padding-left:20px;
-    display:inline;
+    display:inline-block;
 }
 
 .mainbar h1{
